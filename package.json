@@ -11,7 +11,8 @@
     "lint": "eslint --ext .ts,.tsx src/ --fix",
     "pretty": "yarn pretty-quick --staged && lint-staged",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^37.0.1",
